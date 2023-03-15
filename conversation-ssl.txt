@@ -1,0 +1,440 @@
+Heather Hornor
+That's the portal test, which is  current or the upgrade version and it   says, Copy from, and then you can do   that.
+
+Remy Seltz
+so, when you do the copy from, sorry
+
+Heather Hornor
+But
+
+Remy Seltz
+it will grab all the forms and the  submission.
+
+Heather Hornor
+It does but you can't do that on  prod.   We it's in the 801 upgrade.   It's not, that's what they're seeing.   So the idea is that like you want to   take it from   these different stages or do you want   an empty tenant?   And then you do, then the name and   then you can like press submit, but   that doesn't exist on.
+
+Remy Seltz
+so they will have to create a tenant
+
+Heather Hornor
+6x.
+
+Remy Seltz
+and use the exporting port to  transfer the
+
+Heather Hornor
+Yeah, let's see.  so,   Hello.   Oh well, screw you.   Hello.   Come on now.   Tenants don't like me.   Okay, so it does what?      It takes it from whatever you're like   I have forms in here so I think it it   automatically takes it from your   I don't even know what this is.   Have five points PDF one.
+
+Heather Hornor
+I assume that it's from the live  stage.   Yeah, I think it makes a copy from   the stage where the tenants are   enabled.   So because my tenants are enabled   from my live stage, it automatically   takes it from the template of the   live stage, is what it's doing.   And if they want like so we created,   it's not blank, it's a copy of the   life stage or whatever.
+
+Remy Seltz
+It's a  or whatever stages active.   No.
+
+Heather Hornor
+Like yeah, so my tenants are enabled  in live.   So therefore   it's taking it from that live stage,   but if I were like, if my form, if   the tenants were informed building,   They're showing up no matter what.   I don't even know what to say about   this.
+
+Remy Seltz
+So, it will take the  The form of the stage, that is where   the tenants are enabled.
+
+Heather Hornor
+I want to say, it's just a live  stage, but because this button is   just sort of like   It's enabled for this project that   it's underneath the tenants.   Because it doesn't matter where I go   to here, it's all the same.   A little bit confusing.   From here.   With 8x like 6x, it just takes the   template and copies it in 8x, you get   to choose which one you want to the   live stage or the other stages of the   project.
+
+Remy Seltz
+Okay.  So let them know that.   Yeah, it's a new feature and in 7x.   It takes the lights.   Okay.
+
+Heather Hornor
+Yep.
+
+Heather Hornor
+Denise.
+
+Denise Kay
+Heather.
+
+Heather Hornor
+I was telling Courtney and Remi  savvas absolutely saved my bum in the   FRB call today.   I was like,
+
+Denise Kay
+All right.
+
+Heather Hornor
+looking for something.  Some documentation, I was like, Hey I   think we haven't, I don't know where   it is.   Oh my God.   It was like sort of like mumbling to   myself trying to find it then he like   comes in hot.   He's like this one.   I was like Yeah.
+
+Denise Kay
+Way to go.
+
+Heather Hornor
+You saved me.  It was great.
+
+Denise Kay
+I'm free to start giving her pop  quizzes.
+
+Heather Hornor
+Exactly.
+
+Savvas Sidiropoulos
+Yeah, I'm not there yet.
+
+Heather Hornor
+You were today, they gave us a pop  quiz and you want it.
+
+Denise Kay
+Hey, yeah.
+
+Heather Hornor
+I was sitting there like I swear, we  had a documentation, I like I was   like talking about this like I was   like, Yeah, there's this one line   that I have in there and a little and   I'm going out and Savvas had already   put it in the chat like Hello, Ding   Dong.
+
+Denise Kay
+Hey, do we know if we got Tara going?  Where she can edit her forms?
+
+Heather Hornor
+Who.
+
+Denise Kay
+Sky nurses.  Sorry.
+
+Heather Hornor
+I upgraded the project.
+
+Denise Kay
+I know, but then I saw going back and  forth with Remy.   Is Romeo.
+
+Remy Seltz
+You to Sky nurses.
+
+Denise Kay
+Yeah.
+
+Remy Seltz
+Yes, they are.  They always did.
+
+Denise Kay
+they'd worked for,
+
+Remy Seltz
+Sorry.
+
+Denise Kay
+She was able to edit, it was just  that we needed to upgrade it.
+
+Remy Seltz
+yes, but they came back with
+
+Denise Kay
+Okay.
+
+Remy Seltz
+But they came back with another  question.   A two hours ago they say Didn't we   store data on Amazon, the less than
+
+Denise Kay
+Yeah, I answered that one.
+
+Remy Seltz
+Okay.
+
+Denise Kay
+I need to check with church.  I don't remember.
+
+Remy Seltz
+Okay, I'll check what they come with.
+
+Heather Hornor
+Have.  To Denise.
+
+Denise Kay
+Yeah.
+
+Heather Hornor
+Simpler.  Rodan.
+
+Denise Kay
+Yeah.
+
+Heather Hornor
+And I would like to give them to to  Brian.
+
+Denise Kay
+Go.
+
+Heather Hornor
+Yay.
+
+Denise Kay
+Okay.  There it is.
+
+Heather Hornor
+I'm excited.  simpler is a company that is,   Super cool and they're evaluating us   for multi-tenancy PDF auto   conversion, all the whole kit and   kaboodle and they just wrote in.      To support about something.   But I'm then made me realize that   We need to assign them to somebody.
+
+Brian Schutzman
+I'll
+
+Heather Hornor
+Yeah, they're cool.  I'll bring you into the loop for   anything that we need.   But right now it's just some   questions, which I actually think are   Interesting for PDF.   Auto Conversion.
+
+Courtney Furrh
+Was that simpler Heather, sorry.
+
+Heather Hornor
+Uh-huh.
+
+Courtney Furrh
+Okay, yeah, good.  I was gonna ask you about that.
+
+Heather Hornor
+Yep.
+
+Brendan Bond
+Ryan.  I'm using your I'm using your ai bot.   Like like, whoa.
+
+Ryan Eggleston
+Hey.
+
+Brendan Bond
+
+
+Ryan Eggleston
+After after it helped with that one  question.   Like I let me let me go see what this   thing's all about.
+
+Brendan Bond
+Yeah, no, it's pretty
+
+Ryan Eggleston
+And they just released the gpp4 today  too.   They just did a a demo of it like, 30   minutes ago, it's pretty interesting.   You can basically use images now for   input and you can like the guy, he   did a demo where he just did a, a   wireframe on like a napkin and it   took a picture of it.   And then it, it made like a JS,   fiddle, really rough?   But it was, I mean, from picture to   JS, Fiddles pretty crazy.
+
+Brendan Bond
+Yeah, pretty wild.  Um, was there anything else ticket   wise?
+
+Remy Seltz
+Yes, Brendan I have a question and  give me what recent, I don't know.   I put it
+
+Heather Hornor
+I got one for you too with Upper B  about their SSL.   Container conundrum.
+
+Remy Seltz
+Brendan on ticket to six six.  Two, six, six, two, six.   And so they can use a data source   component.   Did I mean anything?
+
+Brendan Bond
+So sorry, what was that number again?  I'm sorry.
+
+Remy Seltz
+Two six, six to six.
+
+Brendan Bond
+Okay.
+
+Remy Seltz
+Did I miss anything else on?  No, it's a data associated with to   go.
+
+Brendan Bond
+Yeah, if you want to populate form  fields from a resource CD's, a date   of source component, you're right on.
+
+Remy Seltz
+Okay.
+
+Brendan Bond
+It doesn't even need to be in the  app.   It could, it's really handy data   source pointing that resource and   then you can access it via default   values using the Data object.
+
+Remy Seltz
+Okay, cool.
+
+Brendan Bond
+and I can maybe I can, I don't know,
+
+Remy Seltz
+Thank you.
+
+Brendan Bond
+you know, we can we can make a little  easy, little JS fiddle, if that helps   or whatever, but it's a data source   for sure.
+
+Remy Seltz
+I think I'm good for now.  You didn't come back to me.   I'll let you know.
+
+Brendan Bond
+Okay.  Yes, that's good.
+
+Courtney Furrh
+With all these pop quiz topics.  Coming in handy,
+
+Denise Kay
+Right.
+
+Heather Hornor
+Everyone like, it's great.
+
+Denise Kay
+I'm surprised you know, that one
+
+Brendan Bond
+Nice going, Remy?  Hell yeah.
+
+Heather Hornor
+Awesome.
+
+Brendan Bond
+So
+
+Heather Hornor
+Ever be okay, so um, This was what  Savvas saved my ass about.   I was like, I swear, I have   documentation on this SL cell thing   but I really mean can't really fight.   And then he was like, Yeah, here   boom, mic drop, but      So they want to use that basically   and it is a requirement for them.   It's like an organizational   requirement.   I was just like Listen we do have it   I would like to discuss with the Dev   team though.   Any implications?   Like the way we've described it has   been through the AWS deployment which   is this like Multi-container Gov Zip   with the SSL s*** in it.   In the docker compose is how it's   like implemented.   I don't know what that means when   you're using ecs fargate blah blah   blah and how all those things come   together.   And if it's like the same idea, if we   have to translate if there's any work   involved for them to like use the   same type of idea or what, I don't   know what that means.
+
+Brendan Bond
+I mean, these are all questions that  are good and I don't know if I have   the answer at the top of my head,   basically, what the documentation.   I think you're referring to.   It's the one that I dropped in the   ticket.   Is it allows   Instead of the load balancer, the SSL   traffic, the TLS traffic terminating   at the load balancer or what it will   do is it will basically terminate at   the node instance at the node   application level.
+
+Heather Hornor
+Yeah.
+
+Brendan Bond
+And with that,  Essentially means is that you   delegate all of your applications   behind that load, balancer have to be   able to handle TLS traffic and have   to be able to send and receive TLS   traffic.
+
+Heather Hornor
+Yep.
+
+Brendan Bond
+So, easy enough for the API server.  No clue about the PDF server.   We'd have to look
+
+Heather Hornor
+Well, we implemented it for the  containers.   The only thing I'm worried about
+
+Brendan Bond
+So, all the containers have it.
+
+Heather Hornor
+Well, we we did this for GSA, as a  paid effort because this was their   requirement.   They're like you're encryption and   transit encryption arrests stops.   The load balancer.   So that can't be the case for us.   Like we can't have these HTTP   requests going between whatever   everything has to be also, whatever   TLS.   And so, therefore, you, we need it   between the containers, in addition,   to like application to APIs, or all   the way to the container, blah, blah,   blah.   So we went through a lot of different   architecture, diagrams and drawings   and mock-ups and blah blah.   And in then had that built out for   them for API PDF and   The container that shall not be named   Submission Server.
+
+Brendan Bond
+okay, yeah, so as in terms of Fargate  and Ecs,      No idea.
+
+Heather Hornor
+Shouldn't matter, right?
+
+Brendan Bond
+I mean it shouldn't matter, it's  definitely doable but like, as far as   like us just being like, yeah, just   enable these variables, it's not   gonna work immediately.   I think that they're gonna do.
+
+Heather Hornor
+That's what I told them basically  because I was like, Listen I can give   you the example of how we told the   that we built this out for GSA and   you can look at that docker compose.   You can look at what how that's   enabled or whatever through that   modality of deployment and then   translated over Because we haven't   been a part of your ecs Fargate   bananas anyway.   So why would we be now?   You know,   So if they have the example for the   the deployment zip, they should be   able to take that and do whatever   they need to do to translate that   over.   That was my theory.
+
+Brendan Bond
+Yes I think that's yeah I think  that's fair.   Although after this FIS global call,   I don't know if anyone   like,   I don't trust it.   Anyone knows about their own   deployments, but you, he's right.
+
+Heather Hornor
+That's a bad example.
+
+Brendan Bond
+But you right.  It's like,   The the API server has the ability to   handle SSL traffic.   So,   how that integrates to your   deployment is up to them and it's   certainly doable.   I think with what we have now, it's   just to take some
+
+Heather Hornor
+Yeah.
+
+Brendan Bond
+Heating.
+
+Heather Hornor
+I think that's up to them too, at  some level.   Then the other question I have is, do   you think that because the calls are   not going to PDF, so we're going to   PDF proxy.   That there's any      Risk there for it.   I don't know any problems issues that   we aren't considering or something.
+
+Brendan Bond
+Well, it's not my understanding that  we're talking about FRB still, right?   So, they're not, they're not.   using the PDF proxy, they're just
+
+Heather Hornor
+Not right now, but they're gonna be  upgrading to eight five soon.   And I think then,
+
+Brendan Bond
+Oh, okay.  Yeah that's
+
+Heather Hornor
+And don't have a choice, right?
+
+Brendan Bond
+Right.  I think we'd have to   I think we'd have to, you know,   confirm on our end, it should.   It should be fine.   but we have to confirm on our end
+
+Heather Hornor
+Okay.
+
+Brendan Bond
+that the PDF proxy would be able to  handle SSL.   Try to it should because the as far   as I know I haven't looked at that in   a long time but the SSL environment   variables that we set they just add   They just basically allow for CLS   traffic at the top, the very top   level of the server itself.   And so,   The PDF proxy should be no problem   there.   Um but I would want to confirm that   for sure before.
+
+Heather Hornor
+Yeah.  um, yeah, yeah, I would just say   could be a discussion for,
+
+Brendan Bond
+I mean, I think that'll be fine
+
+Heather Hornor
+Tidwell.
+
+Brendan Bond
+because the PDF proxy actually just  like kind of we'd have to confirm it,   right?   Because it does a lot of work to   figure out, okay?   The PDF proxy like doesn't know right   away where the PDF server is it has   to do a bunch of logic to figure out.   Okay, This is where that this is how   we construct the PDF Server URL.   If that PDF Server URL was an HTTPS      It should be fine.   If this node server couldn't can   handle.   TLS and if the PDF server can handle   TLS, then I think that should be all   right.   For what it's worth.
+
+Heather Hornor
+Okay.
+
+Brendan Bond
+It depends, it always
+
+Heather Hornor
+Because we also had this thing, and  this is why I was wondering about it   because like   The HTTPS traffic was breaking HTTPS   can break PDF, printing because   certificate is used for forming   environment.   Usually configure for some domain   like for my or something and viewers,   loaded on a local host domain.   So the certificate will be invalid   and chromium will be unable to open   viewer page.   So most likely the issues are caused   by bubble but whatever, I don't know.   But there's like   Certain things that happen with the   certificates of between that type of   thing.   And that's what I'm worried about.   Like they have the US viewer,
+
+Brendan Bond
+Yes, you pointed out a grade point.
+
+Heather Hornor
+Yeah, and they have the uswes viewer  rapper, which does something very   little.   But also could I think cause noise   with this
+
+Brendan Bond
+yeah, we'd have to make sure  We have to make sure that so what   you're referring to is exactly right.   The PDF server on startup attaches a   route to itself that you can access   the viewer and it accesses the viewer   that way.   Now.   I don't know whether that's access   via a local host address.   Or via just a relative URL that Ben   can go back as HTTPS is TLS traffic   to can go.   So we'll, we'll have to just test it.   I think there's no way around   confirming.   That this works.   With the way that the PDF server   deploys itself.
+
+Heather Hornor
+Yeah, I mean and then I have two ways  of thinking about that with them of   being like, okay.   They're the only ones then that are   going to be like that are even going   to be using this at this point.   And therefore, I'm not sure that it's   like and this isn't really your   Territory.   But it's like, do I really want to   sit here and spend our wheels and do   all this for something that like   absolutely nobody's using?   or do I tell them, like,   This is the documentation.   Translate over the deployment and   then we can help you figure it out.   I mean it seems like a little sloppy   but at the same time I'm like   I feel like there's gonna be noise   regardless just because of their   deployment.   Strategy.   Your immune.
+
+Brendan Bond
+The deployment strategy is.
+
+Heather Hornor
+Not relevant.
+
+Brendan Bond
+Yeah, they're gonna be fine with  that.   It's just, it's just
+
+Heather Hornor
+Okay.
+
+Brendan Bond
+Yeah, it's just those little kind of  gotches that you pointed out, like, I   didn't even think about the viewer,   but the viewers gonna be an issue   there because the viewer is sort of   tacked on by the pdser itself.
+
+Heather Hornor
+How?  Trivial, is it to deploy it with the   SSL between the containers or teal,   whatever between the years?   Is it just variables in a   certificate.
+
+Brendan Bond
+I don't know.  It is for the API server.   I have no idea about the PDF server.   I'm assuming it's the same   I mean swimming, if it was all tied   into GSA development ticket, then it   was all kind of the same.   Made the same way.
+
+Heather Hornor
+Okay, so what
+
+Brendan Bond
+But we'd have that's that, that
+
+Denise Kay
+
+
+Brendan Bond
+viewer thing.  You pointed out is a real, might be a   real thorn in our in our foot.
+
+Heather Hornor
+Yeah.  and I'd like to validate that before   I tell them to go off and do it   because otherwise I feel like it was   just like
+
+Brendan Bond
+Yeah, it should take like two or  three hours to just like   I mean honestly you take like 30   minutes to just spin it up and make   sure that the viewer works with HTTPS
+
+Heather Hornor
+I would like to do it on our remote  usws environment.   To have some semi real-world scenario   that we're not just at a local   computer.   So Lane.
+
+You
+Hmm.  Yeah.
+
+Heather Hornor
+Did you get any of that?
+
+You
+I heard Uswds viewer, testing some or  uswds remote environment.
+
+Heather Hornor
+I want to enable SSL between  containers on the remote usbs   environment and see if it blends
