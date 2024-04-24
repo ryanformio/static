@@ -1,0 +1,22 @@
+{
+  "cars": [
+    {
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "color": "red"
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang",
+      "year": 2018,
+      "color": "blue"
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2022,
+      "color": "black"
+    }
+  ]
+}
