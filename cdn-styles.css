@@ -4,3 +4,8 @@
   /* You can use transform for scaling as well */
   /* transform: scale(1.5); */
 }
+
+.survey-radio-parent > * {
+    height: 1.5em; /* styles for all direct children of parent-class */
+  height: 1.5em;
+}
