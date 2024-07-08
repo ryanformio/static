@@ -1,0 +1,6 @@
+.survey-checkboxes {
+  width: 1.5em;
+  height: 1.5em;
+  /* You can use transform for scaling as well */
+  /* transform: scale(1.5); */
+}
