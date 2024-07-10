@@ -1,0 +1,73 @@
+#!/bin/bash
+
+# Cosmos DB connection details
+SOURCE_DATABASE=""
+TARGET_DATABASE=""
+URI_BASE=""  # Include username and password in the URI
+URI_OPTIONS="?ssl=true&replicaSet=globaldb"
+OUTPUT_DIR="./backup"
+GZIP_FILE="$OUTPUT_DIR/$SOURCE_DATABASE.gz"
+
+function backup {
+  # Construct the full URI including the database name
+  URI="$URI_BASE/$SOURCE_DATABASE$URI_OPTIONS"
+  echo "Source URI: $URI"
+
+  # Run mongodump to backup the specified database from Cosmos DB and compress the output
+  mongodump --uri="$URI" --archive="$GZIP_FILE" --gzip
+
+  echo "Backup completed and compressed to $GZIP_FILE!"
+}
+
+function drop_target_database {
+  # Construct the full URI including the database name
+  URI="$URI_BASE/$TARGET_DATABASE$URI_OPTIONS"
+  echo "Dropping target database: $TARGET_DATABASE"
+
+  # Run mongo shell command to drop the target database
+  mongo "$URI" --eval "db.dropDatabase()"
+
+  echo "Dropped target database: $TARGET_DATABASE"
+}
+
+function restore_collections {
+  # Construct the full URI including the database name
+  URI="$URI_BASE/$TARGET_DATABASE$URI_OPTIONS"
+  echo "Target URI: $URI"
+
+  # Restore only the collection structures (indexes)
+  mongorestore --uri="$URI" --archive="$GZIP_FILE" --gzip --nsFrom="$SOURCE_DATABASE.*" --nsTo="$TARGET_DATABASE.*" --noIndexRestore --dryRun
+
+  echo "Collections restored from $GZIP_FILE without documents!"
+}
+
+function restore_documents {
+  # Construct the full URI including the database name
+  URI="$URI_BASE/$TARGET_DATABASE$URI_OPTIONS"
+  echo "Target URI: $URI"
+
+  # Restore only the documents
+  mongorestore --uri="$URI" --archive="$GZIP_FILE" --gzip --nsFrom="$SOURCE_DATABASE.*" --nsTo="$TARGET_DATABASE.*" --noIndexRestore
+
+  echo "Documents restored from $GZIP_FILE!"
+}
+
+function restore {
+  # Drop the target database before restoring
+  drop_target_database
+
+  # Restore the collections without documents
+  restore_collections
+
+  # Restore the documents
+  restore_documents
+}
+
+# Check the first argument passed to the script to determine whether to backup or restore
+if [ "$1" == "backup" ]; then
+  backup
+elif [ "$1" == "restore" ]; then
+  restore
+else
+  echo "Usage: $0 <backup|restore>"
+fi
